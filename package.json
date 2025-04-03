@@ -1,0 +1,49 @@
+{
+  "name": "nodemon",
+  "version": "1.0.0",
+  "description": "of node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "code",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "datauri": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.4.4",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^5.0.7",
+    "nodemailer": "^6.9.14",
+    "prompt-sync": "^4.2.0",
+    "react": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "sharp": "^0.33.5",
+    "shortid": "^2.2.16",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "validator": "^13.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
