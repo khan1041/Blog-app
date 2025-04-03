@@ -331,7 +331,7 @@ try {
 
       if(!mycomment) return res.status(404).json({message:'No comments found for this post', success:false});
 
-      return res.status(200).json({success:true,myId});
+      return res.status(200).json({success:true,mycomment});
 
 
 } catch (error) {
